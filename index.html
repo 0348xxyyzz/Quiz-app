@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO(you): Make whatever changes needed to complete the assignment! -->
+
+<head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <title>HTML Quiz</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h6 class="text-danger font-weight-bold">WPR</h6>
+        <div class="header__right">
+            <span>M</span><span>E</span><span>R</span><span>N</span>
+        </div>
+    </header>
+
+    <article>
+
+        <section id="quiz-name">
+            <h1>HTML Quiz</h1>
+        </section>
+
+        <section id="introduction">
+            <div id="author">By NDT</div>
+            <h3>The test</h3>
+            <section>The test contains 10 questions and there is no time limit</section>
+            <section>
+                The test is not official, it's just a nice way to see how much you know, or don't know, about HTML.
+            </section>
+            <h3>Count Your Score</h3>
+            <section>
+                You will get 1 point for each correct answer. At the end of the Quiz, your total score will be displayed. Maximum score is 10 points.
+            </section>
+        </section>
+
+        <section id="attempt-quiz">
+            <div id="start-screen">
+                <h3>Start the quiz</h3>
+                <div>Good luck!</div>
+                <button class="primary-button" id="start-button">Start the HTML quiz <strong>></strong></button>
+            </div>
+        </section>
+
+        <section id="quiz-box">
+
+        </section>
+
+        <section id="submit-quiz">
+            <button id="submit-button">Submit your answers <strong>></strong>
+            </button>
+        </section>
+
+        <section id="try-again">
+            <h2>Result: </h2>
+            <span id="score"></span>
+            <strong id="score-percent"></strong>
+            <span id="score-text"></span>
+            <button class="primary-button" id="try-again-button">Try again</button>
+        </section>
+
+    </article>
+</body>
+
+</html>
